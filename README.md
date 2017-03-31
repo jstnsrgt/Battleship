@@ -18,8 +18,11 @@ To get started:
 Files:
 ~\
 
--"build.sh"
+ -"build.sh"
 Shell script for building the code project
+
+-"clean.sh"
+Shell script for cleaning the code project
 
 -"run.sh"
 Shell script for running code project after building
@@ -30,7 +33,19 @@ Output log of program compiling
 -"contributers.txt"
 List of current Github contributers
 
+Folders:
+
+Resources\
+Folder contains all game resources including any animations, fonts, images, sounds, icons and highscore file
+
+lib\
+Folder contains bulk of the SwinGame API which is used heavily in the implementation of the game
+
+bin\
+Folder contains the compiled program binarys including any need .dll file, a folder full of used resources and the executable file.
+
 src\
+Folder contains all coding files
 
 -"DeploymentController.vb"
 Deployment of battleships when starting the game
@@ -92,11 +107,22 @@ Describes the grid which the game plays upon
 Player class which can see two grids and check on its ships
 
 -"ResultOfAttack.vb"
+Enumaration for the result of an attack in order to clarify the aftermath
 
 -"SeaGrid.vb"
--"SeaGridAdapter.vb"
--"Ship.vb"
--"ShipName.vb"
--"Tile.vb"
--"TileView.vb"
+Grid which is used as the gameplay area where the ships are deployed
 
+-"SeaGridAdapter.vb"
+Changes the graphics of the Sea Grid depending on attacks, ship positions and water
+
+-"Ship.vb"
+A Ship obejct to facilitate all ship details and actions
+
+-"ShipName.vb"
+Enum for each type of ship available in the game
+
+-"Tile.vb"
+A tile is a slot on the SeaGrid object which tracks what fills it and whether it has been shot
+
+-"TileView.vb"
+Enum for tracking a tile's graphicical state
