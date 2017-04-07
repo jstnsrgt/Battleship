@@ -56,3 +56,5 @@ C:\Users\Dale\Desktop\SWE20001\Git\BattleshipMine\ProjectTemplate\obj\x86\Debug-
 C:\Users\Dale\Desktop\SWE20001\Git\BattleshipMine\ProjectTemplate\obj\x86\Debug-Mac\MyGame.pdb
 C:\Users\Dale\Desktop\SWE20001\Git\BattleshipMine\Battleship\obj\x86\Debug-Mac\MyGame.exe
 C:\Users\Dale\Desktop\SWE20001\Git\BattleshipMine\Battleship\obj\x86\Debug-Mac\MyGame.pdb
+C:\Users\Dale\Desktop\SWE20001\Git\Battleship\Battleship c#\obj\x86\Debug-Mac\MyGame.exe
+C:\Users\Dale\Desktop\SWE20001\Git\Battleship\Battleship c#\obj\x86\Debug-Mac\MyGame.pdb
