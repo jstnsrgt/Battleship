@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Collections;
 
 /// <summary>
 /// Player has its own _PlayerGrid, and can see an _EnemyGrid, it can also check if
@@ -137,7 +139,7 @@ public class Player : IEnumerable<Ship>
 			return null;
 		}
 
-		return _Ships.Item(name);
+		return _Ships[name];
 	}
 
 	/// <summary>
@@ -194,7 +196,7 @@ public class Player : IEnumerable<Ship>
 	/// has.
 	/// </summary>
 	/// <returns>A Ship enumerator</returns>
-	IEnumerator<Ship> IEnumerable<Ship>.GetEnumerator()
+	IEnumerator IEnumerable.GetEnumerator()
 	{
 		return this.GetShipEnumerator();
 	}
@@ -213,7 +215,7 @@ public class Player : IEnumerable<Ship>
 	/// has.
 	/// </summary>
 	/// <returns>A Ship enumerator</returns>
-	public IEnumerator GetEnumerator()
+	public IEnumerator<Ship> GetEnumerator()
 	{
 		Ship[] result = new Ship[_Ships.Values.Count + 1];
 		_Ships.Values.CopyTo(result, 0);
