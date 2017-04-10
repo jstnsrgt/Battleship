@@ -129,8 +129,8 @@ for (i = 0; i < tempVar; i++)
 	/// </summary>
 	public static void DrawMainMenu()
 	{
-		//Clears the Screen to Black
-		//SwinGame.DrawText("Main Menu", Color.White, GameFont("ArialLarge"), 50, 50)
+        //Clears the Screen to Black
+        //SwinGame.DrawText("Main Menu", Color.White, SwinGame.FontNamed("ArialLarge"), 50, 50);
 
 		DrawButtons(MAIN_MENU);
 	}
