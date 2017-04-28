@@ -1,7 +1,12 @@
-﻿using System;
-using SwinGameSDK;
 
-internal static class GameLogic
+using Microsoft.VisualBasic;
+using System;
+using System.Collections;
+using System.Collections.Generic;
+//using System.Data;
+using System.Diagnostics;
+using SwinGameSDK;
+static class GameLogic
 {
 	public static void Main()
 	{
@@ -14,11 +19,10 @@ internal static class GameLogic
 		SwinGame.PlayMusic(GameResources.GameMusic("Background"));
 
 		//Game Loop
-		do
-		{
+		do {
 			GameController.HandleUserInput();
 			GameController.DrawScreen();
-		} while (!(SwinGame.WindowCloseRequested() == true || GameController.CurrentState == GameState.Quitting));
+		} while (!(SwinGame.WindowCloseRequested() == true | GameController.CurrentState == GameState.Quitting));
 
 		SwinGame.StopMusic();
 

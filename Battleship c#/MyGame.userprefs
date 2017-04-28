@@ -1,25 +1,14 @@
-﻿<Properties>
+﻿<Properties StartupConfiguration="{871B5A90-103A-46A5-BBB9-07C02B9851D1}|Default">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug-Windows|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ShapeTest.cs">
-    <Files>
-      <File FileName="src\GameMain.cs" Line="33" Column="36" />
-      <File FileName="Shape.cs" Line="51" Column="4" />
-      <File FileName="ShapeTest.cs" Line="62" Column="18" />
-    </Files>
-    <Pads>
-      <Pad Id="MonoDevelop.NUnit.TestPad">
-        <State expanded="True" selected="True">
-          <Node name="MyGame" expanded="True">
-            <Node name="MyGame" expanded="True">
-              <Node name="ShapeTest" expanded="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MyGame PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="src\Model\Ship.cs">
+    <Files>
+      <File FileName="src\GameLogic.cs" Line="16" Column="19" />
+      <File FileName="src\Model\Ship.cs" Line="9" Column="72" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
 </Properties>

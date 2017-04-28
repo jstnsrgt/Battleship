@@ -1,6 +1,11 @@
-﻿using System;
-using SwinGameSDK;
+
+using Microsoft.VisualBasic;
+using System;
+using System.Collections;
 using System.Collections.Generic;
+//using System.Data;
+using System.Diagnostics;
+using SwinGameSDK;
 
 public static class GameResources
 {
@@ -29,8 +34,7 @@ public static class GameResources
 
 		//Ships
 		int i = 0;
-for (i = 1; i <= 5; i++)
-{
+		for (i = 1; i <= 5; i++) {
 			NewImage("ShipLR" + i, "ship_deploy_horiz_" + i + ".png");
 			NewImage("ShipUD" + i, "ship_deploy_vert_" + i + ".png");
 		}
@@ -104,15 +108,15 @@ for (i = 1; i <= 5; i++)
 	private static Dictionary<string, Bitmap> _Images = new Dictionary<string, Bitmap>();
 	private static Dictionary<string, Font> _Fonts = new Dictionary<string, Font>();
 	private static Dictionary<string, SoundEffect> _Sounds = new Dictionary<string, SoundEffect>();
-	private static Dictionary<string, Music> _Music = new Dictionary<string, Music>();
 
+	private static Dictionary<string, Music> _Music = new Dictionary<string, Music>();
 	private static Bitmap _Background;
 	private static Bitmap _Animation;
 	private static Bitmap _LoaderFull;
 	private static Bitmap _LoaderEmpty;
 	private static Font _LoadingFont;
-	private static SoundEffect _StartSound;
 
+	private static SoundEffect _StartSound;
 	/// <summary>
 	/// The Resources Class stores all of the Games Media Resources, such as Images, Fonts
 	/// Sounds, Music.
@@ -182,8 +186,7 @@ for (i = 1; i <= 5; i++)
 		SwinGame.Delay(200);
 
 		int i = 0;
-		for (i = 0; i < ANI_CELL_COUNT; i++)
-		{
+		for (i = 0; i <= ANI_CELL_COUNT - 1; i++) {
 			SwinGame.DrawBitmap(_Background, 0, 0);
 			SwinGame.DrawBitmapPart(_Animation, (i / ANI_V_CELL_COUNT) * ANI_W, (i % ANI_V_CELL_COUNT) * ANI_H, ANI_W, ANI_H, ANI_X, ANI_Y);
 			SwinGame.Delay(20);
@@ -205,8 +208,9 @@ for (i = 1; i <= 5; i++)
 		const int BG_X = 279;
 		const int BG_Y = 453;
 
-		int fullW = 260 * number / STEPS;
+		int fullW = 0;
 
+		fullW = 260 * number / STEPS;
 		SwinGame.DrawBitmap(_LoaderEmpty, BG_X, BG_Y);
 		SwinGame.DrawBitmapPart(_LoaderFull, 0, 0, fullW, 66, BG_X, BG_Y);
 
@@ -263,40 +267,29 @@ for (i = 1; i <= 5; i++)
 
 	private static void FreeFonts()
 	{
-//INSTANT C# NOTE: Commented this declaration since looping variables in 'foreach' loops are declared in the 'foreach' header in C#:
-//		Font obj = null;
-		foreach (Font obj in _Fonts.Values)
-		{
+		foreach (Font obj in _Fonts.Values) {
 			SwinGame.FreeFont(obj);
 		}
 	}
 
 	private static void FreeImages()
 	{
-//INSTANT C# NOTE: Commented this declaration since looping variables in 'foreach' loops are declared in the 'foreach' header in C#:
-//		Bitmap obj = null;
-		foreach (Bitmap obj in _Images.Values)
-		{
+		foreach (Bitmap obj in _Images.Values) {
 			SwinGame.FreeBitmap(obj);
 		}
 	}
 
 	private static void FreeSounds()
-	{
-//INSTANT C# NOTE: Commented this declaration since looping variables in 'foreach' loops are declared in the 'foreach' header in C#:
-//		SoundEffect obj = null;
-		foreach (SoundEffect obj in _Sounds.Values)
-		{
+	{		
+		foreach (SoundEffect obj in _Sounds.Values) {
 			Audio.FreeSoundEffect(obj);
 		}
 	}
 
 	private static void FreeMusic()
 	{
-//INSTANT C# NOTE: Commented this declaration since looping variables in 'foreach' loops are declared in the 'foreach' header in C#:
-//		Music obj = null;
-		foreach (Music obj in _Music.Values)
-		{
+
+		foreach (Music obj in _Music.Values) {
 			Audio.FreeMusic(obj);
 		}
 	}
