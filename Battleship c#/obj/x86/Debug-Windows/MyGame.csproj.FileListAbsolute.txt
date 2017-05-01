@@ -86,3 +86,29 @@ C:\Users\Jack\Documents\GitHub\QuickSnap\bin\Debug\SwinGame.dll
 C:\Users\Jack\Documents\GitHub\QuickSnap\bin\Debug\nunit.framework.xml
 C:\Users\Jack\Documents\GitHub\QuickSnap\obj\x86\Debug-Windows\MyGame.csprojResolveAssemblyReference.cache
 C:\Users\Jack\Documents\GitHub\QuickSnap\obj\x86\Debug-Windows\MyGame.exe
+C:\Users\Josh\Desktop\Development Project\Git\Battleship\Battleship c#\bin\Debug\Resources\animations\startup.txt
+C:\Users\Josh\Desktop\Development Project\Git\Battleship\Battleship c#\bin\Debug\Resources\bundles\FileDialog.txt
+C:\Users\Josh\Desktop\Development Project\Git\Battleship\Battleship c#\bin\Debug\Resources\bundles\splash.txt
+C:\Users\Josh\Desktop\Development Project\Git\Battleship\Battleship c#\bin\Debug\Resources\fonts\arial.ttf
+C:\Users\Josh\Desktop\Development Project\Git\Battleship\Battleship c#\bin\Debug\Resources\fonts\cour.ttf
+C:\Users\Josh\Desktop\Development Project\Git\Battleship\Battleship c#\bin\Debug\Resources\fonts\maven_pro_regular.ttf
+C:\Users\Josh\Desktop\Development Project\Git\Battleship\Battleship c#\bin\Debug\Resources\images\fdFile.png
+C:\Users\Josh\Desktop\Development Project\Git\Battleship\Battleship c#\bin\Debug\Resources\images\fdFolder.png
+C:\Users\Josh\Desktop\Development Project\Git\Battleship\Battleship c#\bin\Debug\Resources\images\FileDialog_Active.png
+C:\Users\Josh\Desktop\Development Project\Git\Battleship\Battleship c#\bin\Debug\Resources\images\FileDialog_Background.png
+C:\Users\Josh\Desktop\Development Project\Git\Battleship\Battleship c#\bin\Debug\Resources\images\FileDialog_Inactive.png
+C:\Users\Josh\Desktop\Development Project\Git\Battleship\Battleship c#\bin\Debug\Resources\images\FileDialog_Scroll.png
+C:\Users\Josh\Desktop\Development Project\Git\Battleship\Battleship c#\bin\Debug\Resources\images\FileDialog_ScrollSmall.png
+C:\Users\Josh\Desktop\Development Project\Git\Battleship\Battleship c#\bin\Debug\Resources\images\Swinburne.jpg
+C:\Users\Josh\Desktop\Development Project\Git\Battleship\Battleship c#\bin\Debug\Resources\images\SwinGameAni.png
+C:\Users\Josh\Desktop\Development Project\Git\Battleship\Battleship c#\bin\Debug\Resources\panels\FileDialog.txt
+C:\Users\Josh\Desktop\Development Project\Git\Battleship\Battleship c#\bin\Debug\Resources\sounds\error.wav
+C:\Users\Josh\Desktop\Development Project\Git\Battleship\Battleship c#\bin\Debug\Resources\sounds\SwinGameStart.wav
+C:\Users\Josh\Desktop\Development Project\Git\Battleship\Battleship c#\bin\Debug\Resources\SwinGame.icns
+C:\Users\Josh\Desktop\Development Project\Git\Battleship\Battleship c#\bin\Debug\Resources\SwinGame.ico
+C:\Users\Josh\Desktop\Development Project\Git\Battleship\Battleship c#\bin\Debug\MyGame.exe
+C:\Users\Josh\Desktop\Development Project\Git\Battleship\Battleship c#\bin\Debug\nunit.framework.dll
+C:\Users\Josh\Desktop\Development Project\Git\Battleship\Battleship c#\bin\Debug\SwinGame.dll
+C:\Users\Josh\Desktop\Development Project\Git\Battleship\Battleship c#\bin\Debug\nunit.framework.xml
+C:\Users\Josh\Desktop\Development Project\Git\Battleship\Battleship c#\obj\x86\Debug-Windows\MyGame.csprojResolveAssemblyReference.cache
+C:\Users\Josh\Desktop\Development Project\Git\Battleship\Battleship c#\obj\x86\Debug-Windows\MyGame.exe
